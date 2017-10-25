@@ -1,0 +1,78 @@
+@CHARSET "ISO-8859-1";
+/*login page*/
+
+.gender{
+	font-size:24px;
+	color:rgba(255,255,221,1);
+}
+	
+.dob{
+	font-size:24px;
+	color:rgba(255,255,221,1);
+}
+.p1{
+	font-size:40px;
+	font-family:"Comic Sans MS", cursive;
+	text-align:right;
+}
+#h1{
+	width:550px;
+	alignment-adjust:right;
+	float:right;
+}
+.t1{
+	font-size:24px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+.t2{
+	font-size:20px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+body{
+	background: #D1D0CE 0px 0px no-repeat;
+	text-align:left;
+	font-family:Nunito-Light;
+	background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+	position:fixed;
+	left:25px;
+	top:50px;
+	padding:10px;
+	margin:10px;
+	height:90%;
+	width:90%;
+	color:white;
+        text-decoration: none;
+	
+}
+
+.register input[type="text"],.register input[type="password"] {
+	padding: 6px 10px;
+	background:rgba(253,253,253,1);
+	font-size:16px;
+	border:none;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+}
+.register select[name="date"],.register select[name="month"],.register select[name="year"] {
+	padding: 6px 10px;
+	background:rgba(253,253,253,1);
+	font-size:16px;
+	border:none;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+}
+
+
+
+.t2:hover{
+	color:#000;
+    background:rgba(138,138,255,1);
+}
+
+

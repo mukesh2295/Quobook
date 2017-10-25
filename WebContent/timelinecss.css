@@ -1,0 +1,157 @@
+@CHARSET "ISO-8859-1";
+
+.container{
+	font:"Courier New", Courier, monospace;
+	font-size:24px;
+	height:auto;
+	alignment-adjust:central;
+}
+.t1{
+	font-size:20px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	border-radius:5px 5px 5px 5px;
+	color:rgba(204,204,204,1);
+	background:rgba(0,0,0,1);
+	text-decoration:none;
+}
+.t2{
+	font-size:28px;
+	text-outline:rgba(153,153,153,1);
+	color:rgba(0,0,0,1);
+	text-decoration:none;
+}
+body{background: #98AFC7 0px 0px no-repeat;
+	text-align:left;
+	font-family:Nunito-Light;
+	background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+	
+	left:25px;
+	top:50px;
+	padding:10px;
+	margin:10px;
+	height:90%;
+	width:90%;
+	color:white;
+        text-decoration: none;
+	
+}
+.head{
+	height:265px;
+}
+.img{
+	width:150px;
+	height:170px;
+	padding-right:15px;
+	padding-top:15px;
+	padding-bottom:15px;
+	border:rgba(0,0,0,1);
+}
+.h6{
+	padding:10px 30px 10px 10px;
+}
+#h1{
+	width:100%;
+	color:rgba(0,0,0,1);
+	height:auto;
+}
+#h2{
+	width:250px;
+	float:right;
+	height:300px;
+}
+#h3{
+	width:400px;
+	height:auto;
+	right:-10%;
+}
+.h4{
+	right:10%;
+	padding-left:200px;
+}
+.h7{
+	float:right;
+}
+#nav
+{
+	background-color: #222;
+	position: fixed;
+	top:0;
+	right:0;
+	left:0;
+	font-size:28px;
+}
+
+#nav_wrapper
+{
+	margin:0;
+	text-align: left;
+	padding-left: 10px;
+}
+#nav ul
+{
+	list-style-type: none;
+	padding:0px;
+	margin:0px;
+	position:relative;
+}
+#nav ul li
+{
+	display:inline-block;
+}
+
+#nav ul li:hover
+{
+	background-color: #333;
+}
+#nav ul li a,visited
+{
+	color:#ccc;
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+}
+#nav ul li a:hover
+{
+	color:#ccc;
+	text-decoration: none;
+}
+#nav ul li:hover ul
+{
+	display: block;
+}
+#nav ul ul
+{
+	display:none;
+	position:absolute;
+	background-color: #333;
+	border:5px solid #222;
+	border-top: 0px;
+	margin-left:-5px;
+	min-width:200px;
+}
+#nav ul ul li
+{
+	display: block;
+}
+
+#nav ul ul li a,visited
+{
+	color:#ccc;
+}
+#nav ul ul li a:hover
+{
+	color:#099;
+}
+#nav ul li img
+{
+	vertical-align:middle;
+	padding-left: 10px;
+}
+#circle
+{
+	border-radius: 50%,50%,50%;
+	width: 30px;
+	height: 30px;
+}
